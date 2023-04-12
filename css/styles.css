@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,500;1,700&family=Merriweather&family=Montserrat&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #10192c;
+}
+
+.card {
+  position: relative;
+  border-radius: 15px;
+  width: 23.5em;
+  height: 38.8em;
+  background-color: #18263d;
+  margin: 100px auto;
+  text-align: center;
+}
+
+img {
+  width: 19.5em;
+  height: 19.5em;
+  margin: 1.7em auto;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  margin-left: 1.2em;
+  margin-top: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.title-description {
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  margin-left: 1.5em;
+  margin-top: 0;
+  font-size: 18px;
+  width: 19em;
+  color: #8899b8;
+  font-weight: 300;
+}
+
+.price-desc {
+  margin: 2em auto;
+}
+.price-tag {
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  margin-left: 1.5em;
+}
+
+.price-tag-icon {
+  position: absolute;
+  width: 0.7em;
+  height: 1em;
+  margin: 0 auto;
+  top: 0.1em;
+  left: 0.3em;
+}
+
+.price-tag-number {
+  display: inline-block;
+  color: #45fef7;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  width: 5em;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-left: 1.5em;
+}
+
+.price-time {
+  position: relative;
+  margin: 0 auto;
+  float: right;
+  margin-right: 1.5em;
+}
+
+.price-time-icon {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  margin: 0 auto;
+  top: 0.1em;
+  left: 0.3em;
+}
+
+.price-time-number {
+  display: inline-block;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  width: 5em;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-left: 1.5em;
+}
+
+hr {
+  width: 20em;
+  margin: 0 auto;
+  margin-top: 5em;
+  margin-bottom: 1em;
+  border: 1px solid #8899b8;
+}
+
+.profile-pict {
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  border: 0.1em white solid;
+  border-radius: 50%;
+  top: 33em;
+  right: 19.5em;
+}
+
+.profile-desc {
+  text-align: left;
+  font-family: "Outfit", sans-serif;
+  color: #70819d;
+  margin-left: 5em;
+  margin-top: 1.4em;
+}
+
+.profile-desc-name {
+  color: white;
+}
+
+.attribution {
+  color: azure;
+}
+
+.attribution a {
+  color: #45fef7;
+}
